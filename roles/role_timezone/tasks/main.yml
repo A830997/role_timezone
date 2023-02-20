@@ -1,5 +1,5 @@
 ---
 
 - name: Set timezone to Asia/Tokyo
-  timezone:
-    name: Asia/Tokyo
+  win_timezone:
+    timezone: "{{ standard_time_zone }}"
